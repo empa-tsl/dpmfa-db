@@ -1,0 +1,22 @@
+comp;year;mat;value;source;dqisgeo;dqistemp;dqismat;dqistech;dqisrel
+Inflow1;1993;Material1;1;Example data;1;1;1;2;2
+Inflow1;1994;Material1;2;Example data;1;1;1;2;2
+Inflow1;1995;Material1;4;Example data;1;1;1;2;2
+Inflow1;1996;Material1;5;Example data;1;1;1;2;2
+Inflow1;1997;Material1;4;Example data;1;1;1;2;2
+Inflow1;1998;Material1;7;Example data;1;1;1;2;2
+Inflow1;1999;Material1;8;Example data;1;1;1;2;2
+Inflow1;2000;Material1;6;Example data;1;1;1;2;2
+Inflow1;2001;Material1;8;Example data;1;1;1;2;2
+Inflow1;2002;Material1;9;Example data;1;1;1;2;2
+Inflow1;2003;Material1;10;Example data;1;1;1;2;2
+Inflow1;2004;Material1;15;Example data;1;1;1;2;2
+Inflow1;2005;Material1;16;Example data;1;1;1;2;2
+Inflow1;2006;Material1;18;Example data;1;1;1;2;2
+Inflow1;2007;Material1;15;Example data;1;1;1;2;2
+Inflow1;2008;Material1;19;Example data;1;1;1;2;2
+Inflow1;2009;Material1;22;Example data;1;1;1;2;2
+Inflow1;2010;Material1;23;Example data;1;1;1;2;2
+Inflow1;2011;Material1;24;Example data;1;1;1;2;2
+Inflow1;2012;Material1;24;Example data;1;1;1;2;2
+Inflow1;2013;Material1;26;Example data;1;1;1;2;2

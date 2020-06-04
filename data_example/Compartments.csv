@@ -1,0 +1,9 @@
+name;fulllabel;type
+Inflow1;Inflow compartment 1;Flow
+Inflow2;Inflow compartment 2;Flow
+Stock1;Stock compartment 1;Stock
+Stock2;Stock compartment 2;Stock
+Flow1;Flow compartment 1;Flow
+Sink1;Sink compartment 1;Sink
+Sink2;Sink compartment 2;Sink
+Sink3;Sink compartment 3;Sink
