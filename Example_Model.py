@@ -338,7 +338,7 @@ for comp in outflowlist:
                     raise Exception('There are more than two datapoints in the database for the TC from "{a}" to "{b}", year "{c}" and material "{d}".'.format(a = comp, b = dest, c = i, d = mat))
 
             # implement a TimeDependentListTransfer based on all distributions calculated above
-            CompartmentDict[comp].transfers.append(cp.TimeDependentListTransfer(distlist,
+            CompartmentDict[comp].transfers.append(cp.TimeDependentDistributionTransfer(distlist,
                            CompartmentDict[dest],
                            priority = dfpriority[0]))
 
