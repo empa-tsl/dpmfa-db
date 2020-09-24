@@ -66,8 +66,8 @@ cursor.execute("""
                dqistech INTEGER NOT NULL,
                dqisrel INTEGER NOT NULL,
                source TEXT,
-               FOREIGN KEY(comp1) REFERENCES compartments(fulllabel),
-               FOREIGN KEY(comp2) REFERENCES compartments(fulllabel),
+               FOREIGN KEY(comp1) REFERENCES compartments(name),
+               FOREIGN KEY(comp2) REFERENCES compartments(name),
                FOREIGN KEY(mat) REFERENCES materials(name)
                );""")
 
@@ -102,7 +102,7 @@ cursor.execute("""
                dqistech INTEGER NOT NULL,
                dqisrel INTEGER NOT NULL,
                source TEXT,
-               FOREIGN KEY(comp) REFERENCES compartments(fulllabel),
+               FOREIGN KEY(comp) REFERENCES compartments(name),
                FOREIGN KEY(mat) REFERENCES materials(id)
                );""")
 
@@ -131,7 +131,7 @@ cursor.execute("""
                comp TEXT,
                year INTEGER,
                value DOUBLE,
-               FOREIGN KEY(comp) REFERENCES compartments(fulllabel)
+               FOREIGN KEY(comp) REFERENCES compartments(name)
                );""")
 
 # import table
