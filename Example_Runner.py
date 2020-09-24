@@ -88,14 +88,14 @@ print('')
 # export all outflows to csv
 for Comp in loggedOutflows: # loggedOutflows is the compartment list of compartmensts with loggedoutflows
     for Target_name, value in Comp.outflowRecord.items(): # in this case name is the key, value is the matrix(data), in this case .items is needed     
-        with open(os.path.join("experiment_output","loggedOutflows_" + Comp.name + "_to_" + Target_name + ".csv"), 'w') as RM :
+        with open(os.path.join("example_output","loggedOutflows_" + Comp.name + "_to_" + Target_name + ".csv"), 'w') as RM :
             a = csv.writer(RM, delimiter=' ')
             data = np.asarray(value)
             a.writerows(data) 
 
 # export all inflows to csv
 for Comp in loggedInflows: # loggedOutflows is the compartment list of compartmensts with loggedoutflows
-    with open(os.path.join("experiment_output",'loggedInflows_'+Comp+'.csv'), 'w') as RM :
+    with open(os.path.join("example_output",'loggedInflows_'+Comp+'.csv'), 'w') as RM :
         a = csv.writer(RM, delimiter=' ')
         data = np.asarray(loggedInflows[Comp])
         a.writerows(data) 
