@@ -162,7 +162,7 @@ for j in np.arange(len(complist)):
                 # create a triangular distribution
                 inflow_dist.append(tr.TriangTrunc(inflow,
                                                   CV,
-                                                  1, 0, float('inf')))
+                                                  RUNS, 0, float('inf')))
             
         elif len(data) == 2:
             
@@ -198,7 +198,7 @@ for j in np.arange(len(complist)):
                                                   inflow[1],
                                                   CV[0], 
                                                   CV[1],
-                                                  1, 0, float('inf')))
+                                                  RUNS, 0, float('inf')))
             
         else:
             raise Exception('There is an error in the database for compartment "{a}", year "{b}" and material "{c}".'.format(a = compname, b = str(i+startYear), c = mat))
