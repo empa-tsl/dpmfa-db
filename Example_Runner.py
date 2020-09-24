@@ -32,13 +32,13 @@ exampleModel.debugModel()
 
 ###############################################################################
 
-startYear = 1988
+startYear = 1993
 # total time range considered, also for np.arange
 # if Tperiods is changed, the import settings of the production data in the model
 # must also be changed (if Tperiods get higher)
-Tperiods = 5
+Tperiods = 23
 # defined period for checking the flows (here 2018)
-Speriod = 0
+Speriod = 4
 
 RUNS = 100
 
